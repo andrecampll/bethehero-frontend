@@ -67,7 +67,7 @@ export default function Profile() {
     <Container className="profile-container">
       <header>
         <img src={logoImg} alt="Be The Hero"/>
-        <span>Bem vinda, {ongName}</span>
+        <span>Bem vinda(o), {ongName}</span>
         <Link to="/incidents/new">
           <Button>
             Cadastrar novo caso

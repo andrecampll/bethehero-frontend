@@ -60,7 +60,7 @@ export default function Register() {
           <input
             value={name}
             onChange={e => setName(e.target.value)}
-            placeholder="Nome da ONG"
+            placeholder="Nome da ONG (ou nome de usuário)"
           />
           <input
             value={email}
@@ -71,7 +71,7 @@ export default function Register() {
           <input
             value={whatsapp}
             onChange={e => setWhatsapp(e.target.value)}
-            placeholder="Whatsapp"
+            placeholder="Whatsapp (com DDD)"
           />
 
           <div>
