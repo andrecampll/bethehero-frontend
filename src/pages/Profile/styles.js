@@ -59,6 +59,28 @@ export const Container = styled.div`
         border-color: #999;
       }
     }
+
+    div > a {
+      height: 60px;
+      width: 60px;
+      border-radius: 4px;
+      border: 1px solid ${props => props.theme.colors.input};
+      background: ${props => props.theme.colors.content};
+      margin-left: 16px;
+      margin-top: 15px;
+      transition: border-color 0.2s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      svg {
+        margin-right: 0px;
+      }
+
+      &:hover {
+        border-color: #999;
+      }
+    }
   }
 
   h1 {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { FiPower, FiTrash2 } from 'react-icons/fi';
+import { FiPower, FiTrash2, FiSettings } from 'react-icons/fi';
 import { FaSpinner } from 'react-icons/fa';
 import api from '../../services/api';
 
@@ -77,6 +77,11 @@ export default function Profile() {
           <button type="button" onClick={handleLogout}>
             <FiPower size={18} color="#E02041" />
           </button>
+        </div>
+        <div> 
+          <Link to="/settings">
+            <FiSettings size={18} color="#E02041" />
+          </Link>
         </div>
       </header>
 
