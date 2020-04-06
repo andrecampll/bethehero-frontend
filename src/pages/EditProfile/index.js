@@ -50,7 +50,7 @@ export default function NewIncident() {
     }
 
     try {
-      const response = await api.put('profile/edit', data, {
+      const response = await api.put('edit', data, {
         headers: {
           Authorization: ongId,
         }
